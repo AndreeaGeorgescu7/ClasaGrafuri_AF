@@ -151,7 +151,7 @@ void Graf:: dfs(int s)
     for ( it = graf[s].begin(); it != graf[s].end(); ++it)
        if (!viz[*it]) dfs(*it);
 
-///ne trebuie la ctc deoarece trebuie sa pornim in ordinea inversa a aparitiei in parcurgere
+///ne trebuie la ctc deoarece trebuie sa pornim in ordinea  aparitiei in parcurgere
   stiva.push(s);
 }
 
